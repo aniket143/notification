@@ -24,7 +24,8 @@ Wedding invitation card  notify  </description>
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
     <preference name="phonegap-version" value="cli-5.2.0" />
-
+    
+    <gap:plugin name="com.adobe.plugins.pushplugin" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <gap:plugin name="com.phonegap.plugin.statusbar" />
     <gap:plugin name="org.apache.cordova.battery-status" />
